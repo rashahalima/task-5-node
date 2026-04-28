@@ -11,6 +11,7 @@ trim:true,
 
 age:{
     type:Number,
+    required:true,
     default:18,
 validate(val){
     if(val<=0){
@@ -20,6 +21,7 @@ validate(val){
 }
 ,
 city:{
+    required:true,
     type:String,
 
 }
